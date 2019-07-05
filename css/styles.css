@@ -1,0 +1,164 @@
+body{
+  padding: 0 10px 40px;
+}
+
+h2{
+  font-size:16px;
+
+}
+
+.ex1{
+  width:100px;
+  height: 100px;
+  background: #eee;
+}
+.ex2{
+  width:100px;
+  height: 100px;
+  background: #eee;
+  border-style: solid;
+  border-width: 20px;
+  border-color: red blue pink green;
+}
+.ex3{
+  width:0;
+  height:0;
+  background: #eee;
+  border-style: solid;
+  border-width: 20px;
+  border-color: red blue pink green;
+}
+.ex4{
+  width:0;
+  height:0;
+  /* background: #eee; */
+  border-style: solid;
+  border-width: 20px;
+  border-color: red transparent transparent transparent;
+}
+
+.ex5{
+  width:0;
+  height:0;
+  background: #eee;
+  border-style: solid;
+  /* border-width: 40px 20px 20px 20px; */
+  border-width: 40px 20px 20px 0;
+  border-color: red blue pink green;
+  transform:skew(-15deg,0);
+}
+
+.balloon1-1{
+  width: 200px;
+  height: 100px;
+  background: #eee;
+  border-radius: 3px;
+  position: relative;
+}
+
+.balloon1-1:before{
+  position: absolute;
+  right: 20px;
+  bottom: -20px;
+  content: '';
+
+  width:0;
+  height:0;
+  /* background: #eee; */
+  border-style: solid;
+  border-width: 10px;
+  border-color: #eee transparent transparent transparent;
+}
+.balloon1-2{
+  width: 200px;
+  height: 100px;
+  background: #eee;
+  border-radius: 3px;
+  position: relative;
+}
+
+.balloon1-2:before{
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+  content: '';
+
+  width:0;
+  height:0;
+  /* background: #eee; */
+  border-style: solid;
+  border-width: 15px 20px 10px 0;
+  border-color: #eee transparent transparent transparent;
+}
+
+.balloon2-1{
+  width: 200px;
+  height: 100px;
+  /* background: #eee; */
+  border:1px solid #eee;
+  border-radius: 3px;
+  position: relative;
+}
+
+.balloon2-1:before{
+  position: absolute;
+  right: 20px;
+  bottom: -20px;
+  content: '';
+
+  width:0;
+  height:0;
+  /* background: #eee; */
+  border-style: solid;
+  border-width: 10px;
+  border-color: #eee transparent transparent transparent;
+}
+.balloon2-1:after{
+  position: absolute;
+  right: 20px;
+  bottom: -19px;
+  content: '';
+
+  width:0;
+  height:0;
+  /* background: #eee; */
+  border-style: solid;
+  border-width: 10px;
+  border-color: #fff transparent transparent transparent;
+}
+
+.balloon2-2{
+  width: 200px;
+  height: 100px;
+  /* background: #eee; */
+  border:1px solid #eee;
+  border-radius: 3px;
+  position: relative;
+}
+
+.balloon2-2:before{
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+  content: '';
+
+  width:0;
+  height:0;
+  /* background: #eee; */
+  border-style: solid;
+  border-width: 15px 20px 10px 0;
+  border-color: #eee transparent transparent transparent;
+}
+.balloon2-2:after{
+  position: absolute;
+  right: 20px;
+  bottom: -24px;
+  content: '';
+
+  width:0;
+  height:0;
+  /* background: #eee; */
+  border-style: solid;
+  border-width: 15px 19px 10px 0;
+  border-color: #fff transparent transparent transparent;
+}
